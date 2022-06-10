@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background: url("/img/fundo.png");
+    background: url(/img/fundo.png);
     color: black;
     font-family: 'Raleway', sans-serif;
     width: 100%;
@@ -69,6 +69,10 @@ h2 {
 .links-list li {
     box-shadow: 0 0 20px white;
     margin: 15px 20px;
+}
+
+.links-list li i {
+    margin-right: 5px;
 }
 
 .links-list li a {
