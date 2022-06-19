@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background: url("/img/fundo.png");
+    background: rgb(54,77,204);
     color: black;
     font-family: 'Raleway', sans-serif;
     width: 100%;
