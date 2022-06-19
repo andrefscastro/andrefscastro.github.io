@@ -9,11 +9,10 @@ html, body {
 
 body {
     background: rgb(54,77,204);
-    color: black;
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
+    color: white;
     font-family: 'Raleway', sans-serif;
     width: 100%;
-    background-size: 120px;
-    background-position: center;
 }
 
 .profile {
@@ -22,9 +21,9 @@ body {
 }
 
 .avatar {
-    width: 100px;
+    height: 80px;
     border-radius: 50%;
-    border: 3px solid black;
+    border: 3px solid white;
     box-shadow: 0 0 20px white;
 }
 
@@ -37,12 +36,8 @@ h1 {
 
 h2 {
     font-size: 16px;
+    font-weight: 100;
     font-family: 'Raleway', sans-serif;
-    background-color: white;
-    border: 2px dotted black;
-    border-radius: 10px;
-    width: 90%;
-    margin: 0 auto;
 }
 
 .social {
@@ -57,7 +52,7 @@ h2 {
 }
 
 .social img {
-    width: 50px;
+    width: 33px;
 }
 
 .links-list {
@@ -75,12 +70,10 @@ h2 {
     display: block;
     text-decoration: none;
     background: white;
-    border: 2px dashed black;
     padding: 15px 20px;
     border-radius: 4px;
     color: rgb(54,77,204);
     font-weight: bold;
-    border-radius: 15px;
 }
 
 .links-list li a span {
